@@ -1,3 +1,13 @@
 h1 {
   color: blue;
 }
+
+h1 {
+  color: blue;
+  animation: fade 2s infinite;
+}
+
+@keyframes fade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
